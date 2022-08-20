@@ -1,0 +1,73 @@
+ 
+
+body,html {
+    height: 100%;
+}
+
+.bg {
+
+    background-image: url(img_fundo_triangulos.png);
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+}
+.abertura {
+    margin-top: 100px;
+    ;
+}
+.pInicial {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.pParte2 {
+    text-align: center;
+}
+.cadastro {
+    background-color: rgb(3, 96, 255);
+    width: 95%;
+    height: 95%;
+    border-radius: 15px;
+    border-style:solid;
+    border-color: rgb(255, 0, 0);
+    border-width: 5px;
+    padding-bottom: 20px;
+}
+
+.bordaContato {
+    border-radius: 15px;
+    border-style:solid;
+    border-color: rgb(255, 0, 0);
+    border-width: 3px;
+    padding-bottom: 20px;    
+}
+
+.mensagem {
+    height: 200px;
+}
+
+.navColor {
+    background-color: rgb(57, 128, 251);
+}
+
+/* css carrocel */
+
+   .cards {
+     background-color: #f8f9fa;
+   }
+   .card-altura {
+        height: auto;
+        max-width: 100%;
+   }
+   .img-altura {
+        height: auto;
+        max-width: auto;
+   }
+   .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='darkgrey' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+    .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='darkgrey' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
