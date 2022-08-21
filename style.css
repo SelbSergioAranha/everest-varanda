@@ -49,14 +49,13 @@ body,html {
 }
 
 .navColor {
-    background-color: rgb(57, 128, 251);
+    background-color:#2782dd;
+    ;
 }
 
 /* css carrocel */
 
-   .cards {
-     background-color: #f8f9fa;
-   }
+
    .card-altura {
         height: auto;
         max-width: 100%;
