@@ -26,7 +26,7 @@ body,html {
     text-align: center;
 }
 .cadastro {
-    background-color: rgb(3, 96, 255);
+    background-color:#2782dd;
     width: 95%;
     height: 95%;
     border-radius: 15px;
@@ -37,15 +37,17 @@ body,html {
 }
 
 .bordaContato {
+
+    background-color: rgb(51, 123, 248);
     border-radius: 15px;
     border-style:solid;
     border-color: rgb(255, 0, 0);
     border-width: 3px;
-    padding-bottom: 20px;    
+   
 }
 
 .mensagem {
-    height: 200px;
+    height: 100px;
 }
 
 .navColor {
