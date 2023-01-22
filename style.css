@@ -7,7 +7,6 @@ body,html {
 }
 
 .pcontato{
-
     padding-top: 80px;
 }
 
@@ -22,17 +21,12 @@ body,html {
     background-position: center ;
     background-attachment: fixed;
 }
-.abertura {
-    margin-top: 100px;
-    
-}
 
 .pInicial {
     margin-top: 20px;
-    font-size: 35px;
-    font-weight: 700;
     text-align: center;
-    color: rgb(184, 85, 14);
+    color:#634A00;
+    
 }
 .pInicial2 {
     width: 100%;
@@ -41,62 +35,64 @@ body,html {
     font-size: 40px;
     font-weight: 700;
     text-align: center;
-    background-color: rgba(76, 153, 242, 0.683);
+    background-color: #634A00;
     color: rgb(255, 255, 255);
     letter-spacing: 10px;
+    border-radius: 10px;
 }
 
+.fontFinal {
+    color:#634A00;
+}
 .class-video {
     display: flex;
     justify-content: center;
     margin-top: 5px;
 }
 
-
-
-h2, h3 {
+h2 {
     font-weight: 700;
 }
-
-.pParte2 {
-    text-align: center;
-}
 .cadastro {
-    background-color:#2782dd;
+    background-color:#d7dfe1;
     width: 95%;
     height: 95%;
     border-radius: 15px;
     border-style:solid;
-    border-color: rgb(255, 0, 0);
+    border-color:#FF9933;
     border-width: 5px;
 
 }
 
 .bordaContato {
 
-    background-color: rgb(51, 123, 248);
+    background-color: #0099DD;
     border-radius: 15px;
     border-style:solid;
-    border-color: rgb(255, 0, 0);
+    border-color: #FF9933;
     border-width: 3px;
    
 }
 
 .navColor {
-    background-color:#2782dd;
-    ;
+    background-color:#ffffff;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
 }
 
 /* css carrocel */
 
 .carousel {
-
     max-width: 70%;
 }
 
 .carousel-inner {
     max-width: 100%;
-    }
+}
+
+.classlogo {
+    max-width: 200px;
+    max-height: 200px;
+}
 
 .card-tamanho {
     height: 100%;
@@ -114,7 +110,6 @@ h2, h3 {
 
 .bordaImgVar {
     border-radius: 3% 3% 3% 3%;
-
 }
 
 .carousel-control-prev-icon {
