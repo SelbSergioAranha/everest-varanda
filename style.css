@@ -29,10 +29,31 @@ body,html {
 
 .pInicial {
     margin-top: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(184, 85, 14);
+}
+.pInicial2 {
+    width: 100%;
+    padding: 15px  15px;
+    margin-top: 20px;
     font-size: 40px;
     font-weight: 700;
     text-align: center;
+    background-color: rgba(76, 153, 242, 0.683);
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
 }
+
+.class-video {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+
+
 h2, h3 {
     font-weight: 700;
 }
@@ -61,10 +82,6 @@ h2, h3 {
    
 }
 
-.mensagem {
-    height: 100px;
-}
-
 .navColor {
     background-color:#2782dd;
     ;
@@ -72,19 +89,37 @@ h2, h3 {
 
 /* css carrocel */
 
+.carousel {
 
-   .card-altura {
-        height: auto;
-        max-width: 100%;
-   }
-   .img-altura {
-        height: auto;
-        max-width: auto;
-   }
-   .carousel-control-prev-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='darkgrey' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-    }
-    .carousel-control-next-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='darkgrey' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    max-width: 70%;
+}
+
+.carousel-inner {
+    max-width: 100%;
     }
 
+.card-tamanho {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.img-tamanho {
+    max-width: auto;
+    max-height: auto;
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    }
+
+.bordaImgVar {
+    border-radius: 3% 3% 3% 3%;
+
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='darkgrey' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='darkgrey' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
