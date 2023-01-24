@@ -14,9 +14,6 @@ body,html {
     border-radius: 6px;
 }
 
-.imgfinan {
-    max-width: 30%;
-}
 .bg {
 
     background-image: url(img_fundo_triangulos.png);
@@ -96,7 +93,15 @@ h2 {
     max-height: 15rem;
 }
 
+.textoFinan {
+    width: 40rem;
+    height: 20rem;
+}
 
+.imgFinan {
+    width: 30rem;
+    height: 20rem;
+}
 
 .img-tamanho {
     width: 70rem;
