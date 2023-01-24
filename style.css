@@ -96,8 +96,13 @@ h2 {
     max-height: 15rem;
 }
 
+.teste {
+    max-width: 100rem;
+    max-height: 100rem;
+}
+
 .img-tamanho {
-    max-height: 25rem;
+    max-height: 30rem;
     object-fit: cover;
     object-position: center;
     }
