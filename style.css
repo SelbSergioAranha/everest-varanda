@@ -103,11 +103,13 @@ h2 {
 }
 
 .img-tamanho {
-    width: 30rem;
+    width: 90vh;
     height: 30rem;
     object-fit: cover;
     object-position: center;
     }
+
+
 
 .bordaImgVar {
     border-radius: 3% 3% 3% 3%;
