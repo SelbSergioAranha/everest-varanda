@@ -103,9 +103,7 @@ h2 {
 }
 
 .img-tamanho {
-    width: 90vh;
-
-    object-fit: cover;
+    object-fit: scale-down;
     object-position: center;
     }
 
