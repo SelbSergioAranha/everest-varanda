@@ -96,12 +96,12 @@ h2 {
 }
 
 .img-tamanho {
-    object-fit:cover ;
+    object-fit:fill ;
     object-position: center; 
 }
 
 .carouselTamanho {
-    width: 70rem;
+    max-width: 70rem;
 }
 
 .bordaImgVar {
