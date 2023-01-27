@@ -79,13 +79,7 @@ h2 {
 
 /* css carrocel */
 
-.carousel {
-    max-width: 70%;
-}
 
-.carousel-inner {
-    max-width: 100%;
-}
 
 .classlogo {
     max-width: 15rem;
@@ -99,13 +93,16 @@ h2 {
 
 .imgFinan {
     width: 30rem;
-    
 }
 
 .img-tamanho {
-    object-fit: scale-down;
-    object-position: center;
-    }
+    object-fit:cover ;
+    object-position: center; 
+}
+
+.carouselTamanho {
+    width: 70rem;
+}
 
 .bordaImgVar {
     border-radius: 3% 3% 3% 3%;
