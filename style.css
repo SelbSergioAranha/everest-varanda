@@ -45,9 +45,8 @@ body,html {
     color:#634A00;
 }
 .class-video {
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
+    height: 30rem;
+    width: 53rem;
 }
 
 h2 {
